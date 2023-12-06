@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,700;6..12,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h5>Advinhe o número de 1 a 100</h5>
+        <input class="input-numero" inputmode="numeric" type="text">
+        <div class="container-score">
+            <div class="timer">00:00</div>
+            <div class="pontos" style="display: none"><span class="pontos-count">0</span><span class="subtitle">pts</span></div>
+            <div class="tentativas"><span class="tentativas-count">0</span> <span class="subtitle">tentativas</span></div>
+        </div>
+        <div class="mensagem" style="display:none"></div>
+        <div class="container-numeros"></div>
+    </div>
+    
+
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>
