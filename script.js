@@ -67,6 +67,7 @@ const addResposta = (numero) => {
         legenda = 'Acertou!'
         pontos = -10
         pause()
+        $('input').hide()
     }
 
 
